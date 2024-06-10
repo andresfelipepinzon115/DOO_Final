@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Formulario Registro Aulas</title>
+</head>
+<body>
+  <section class="form-register">
+    <h4>Formulario Registro de Aula</h4>
+    <select class="controls" name="bloque" id="bloque">
+        <option value="">(Seleccione el bloque)</option>
+        <option value="CO">CO</option>
+        <option value="J">J</option>
+        <option value="M">M</option>
+        <option value="EDC">EDC</option>
+        <option value="D">D</option>
+    </select>
+    <input class="controls" type="text" name="nombre" id="nombre" placeholder="Ingrese Nombre del aula">
+    <input class="controls" type="number" name="capacidad" id="capacidad" placeholder="Ingrese la capacidad" min="12" max="40" required>
+    <select class="controls" name="correo" id="correo">
+        <option value="">(Seleccione el tipo de aula)</option>
+        <option value="Aula Comun">Aula Comun</option>
+        <option value="Sala Informatica">Sala Informatica</option>
+        <option value="Laboratorio">Laboratorio</option>
+    </select>
+    <input class="botons" type="submit" value="Registrar">
+  </section>
+
+</body>
+</html>
